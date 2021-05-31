@@ -1,9 +1,10 @@
 {
-  "name": "STLstuff",
+  "name": "stlstuff",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@mikro-orm/core": "^4.5.5",
     "arg": "^5.0.0",
     "buffer-from": "^1.1.1",
     "create-require": "^1.1.1",
