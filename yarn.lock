@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@mikro-orm/core@^4.5.5":
-  version "4.5.5"
-  resolved "https://registry.yarnpkg.com/@mikro-orm/core/-/core-4.5.5.tgz#84c4258465079213d256f76fb577715ce6741d2a"
-  integrity sha512-mGg/P7HQXU20zYljSy4JKLQ+TMcuAAXLnG0792TKdHnF/SWe4lwrqLCkx/LpZ10fryLTWMkSXtBryTOOheNz1A==
+"@mikro-orm/core@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/core/-/core-4.5.6.tgz#663b8b2d16121b1bd043ae23e49fda4f5f536b90"
+  integrity sha512-+wAF49m9zGnBdSv6lwS1leyqZ57ajYkp8n+CIxn7p1lCDrYGD2x3a50ubFstGEYKdITztzy2SBTlSPVMfyulMg==
   dependencies:
     ansi-colors "4.1.1"
     clone "2.1.2"
