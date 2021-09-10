@@ -15,19 +15,17 @@ function App() {
       <Header/>
 
       <div >
-        <p className="mainText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p className="mainText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec ante molestie, euismod lectus quis, ullamcorper justo. Sed vel leo eu velit scelerisque pellentesque. Nunc in lectus at risus ornare molestie. Sed a libero blandit, rhoncus nulla posuere, egestas ante. Etiam ullamcorper blandit erat nec placerat. Cras lectus nibh, cursus id mi ac, elementum feugiat elit. Aliquam erat volutpat. Donec laoreet vestibulum turpis, rutrum auctor neque egestas vel.
+
+Cras imperdiet posuere enim, eget cursus sem. Nulla ante nibh, varius bibendum fermentum a, ultrices vel quam. Suspendisse laoreet luctus mi, non venenatis nisl accumsan sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vehicula mauris est, at lacinia lacus elementum ac. Nunc non leo at sem vulputate tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed imperdiet, turpis ut venenatis malesuada, nulla ipsum hendrerit justo, at euismod metus ipsum non ante. Nulla aliquam convallis nisi eu pharetra. Sed quam ante, aliquet sed ultricies sed, feugiat a purus. In hac habitasse platea dictumst. Mauris tincidunt, tortor eget cursus vestibulum, elit orci malesuada lectus, dignissim dapibus lacus lacus at ante.
+
+Proin ullamcorper ligula rutrum metus venenatis, et sagittis nulla viverra. Sed efficitur arcu tellus, sed ullamcorper erat molestie at. Duis ullamcorper ipsum id felis cursus, ac efficitur leo molestie. Phasellus facilisis ac dui quis pellentesque. Aliquam eget sagittis nibh. Fusce posuere lorem molestie neque varius varius. Sed laoreet metus eget nulla consectetur, non pulvinar orci feugiat. Suspendisse mollis tellus vitae sapien finibus venenatis. Suspendisse viverra tortor est, at bibendum quam dignissim at. Nunc vitae dolor vel purus mattis pulvinar.
+
+Sed aliquam tincidunt sollicitudin. Aenean vel feugiat ligula. Aliquam bibendum urna eget enim porta tincidunt. Sed commodo semper neque eget viverra. Duis ac tincidunt turpis, eu maximus dolor. Maecenas id faucibus arcu. Sed eget rutrum felis. Vestibulum mi mi, gravida nec elit ac, sollicitudin luctus turpis. Nullam blandit rutrum odio at egestas. Suspendisse sodales odio a nulla fermentum, vel fringilla leo lobortis. Duis tincidunt eleifend pharetra. Fusce fringilla accumsan dui id consectetur.
+
+Vestibulum ac velit nibh. Aliquam erat volutpat. Nam sed lacus ut metus aliquet pretium euismod ac eros. Etiam ex elit, efficitur et condimentum quis, faucibus eu massa. Duis bibendum odio sed elementum tincidunt. Etiam interdum suscipit felis sed posuere. Nam vehicula ligula in nulla laoreet, tincidunt lobortis massa sollicitudin. Morbi lobortis sollicitudin condimentum.</p>
         <div>
-          {isOpen && <Popup
-            content={<>
-            <div className="mainText">
-              <b>This website is a work in progress</b>
-              <p>STLstuff is still under development, no database (or pretty much anything) has been implemented yet. I will focus on frontend first, then take care of the database and backend side of the website. Key features that I want are a realiable search algorithm to find relevant models, adding a dicoverability feature that allows you to easiely browse 3D models that you might intersted into. The addition of a quick-download button
-              </p>
-              <p>Also need to add a checkmark to stop displaying this every time</p>
-              </div>
-            </>}
-            handleClose={togglePopup}
-          />}
+          {isOpen && <Popup handleClose={togglePopup}s/>}
         </div>
       </div>
 

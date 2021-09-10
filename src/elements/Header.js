@@ -1,7 +1,7 @@
 function Header(){
     return(
         <div className="Header">
-            <h1 className="mainText">STLstuff</h1>
+            <h1 className="headerText">STLstuff</h1>
         </div>
     )   
 }
