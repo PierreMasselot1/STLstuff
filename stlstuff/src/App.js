@@ -1,7 +1,7 @@
 import './App.css';
-import Header from './elements/Header';
+import Header from './components/Header';
 import React, { useState } from 'react';
-import Popup from './elements/Popup';
+import Popup from './components/Popup';
 
 function App() {
   const [isOpen, setIsOpen] = useState(true);
