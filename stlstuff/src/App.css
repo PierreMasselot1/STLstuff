@@ -8,8 +8,10 @@
   margin-top: 0;
   text-align: center;
   background-color: #121212;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 /* Popup style */
@@ -54,28 +56,39 @@
 
 .popupText {
   color:var(--mainTextColor);
+  
 }
 
 .mainText {
-  margin-top: 6%;
   color:var(--mainTextColor);
+  padding-top: 1%;
+  margin:0px;
 }
 
 .Header{
+  margin:0;
+  padding:0;
   width: 100%;
   left:0px;
   right:0px;
   top:0px;
-  height: 10%;
- background-color: var(--accentColor);
- position: fixed;
+  background-color: var(--accentColor);
+  position: fixed;
+  height: 5vh;
+  min-height: 40px;
 
 }
 .headerText{
-  margin:0;  padding:0;
+  margin:0; 
+  padding:0;
   width: 100%;
+  height: fit-content;
   text-align: center;
-  position: inherit;
-  height: 10%;
-  vertical-align: middle;
+}
+.Content{
+  padding: 0px;
+  min-height: 100%;
+  margin-top:5vh;
+
+
 }
