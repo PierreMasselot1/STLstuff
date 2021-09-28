@@ -5,10 +5,6 @@ app.use(express.json());
 
 require('dotenv').config();
 
-app.get('/',(req,res)=>{
-    res.send('Hello World');
-});
-
 
 app.get('/testAPI',(req,res)=>{
   res.send('This is the response for the testAPI');
