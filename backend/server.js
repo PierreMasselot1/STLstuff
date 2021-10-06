@@ -6,7 +6,7 @@ app.use(express.json());
 require('dotenv').config();
 
 
-app.get('/testAPI',(req,res)=>{
+app.get('/api/testAPI',(req,res)=>{
   res.send('This is the response for the testAPI');
 });
 
