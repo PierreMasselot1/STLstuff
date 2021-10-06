@@ -9,7 +9,7 @@ function App() {
   const [data, setData] = React.useState(null);
 
   React.useEffect(() => {
-    fetch("/api/testAPI")
+    fetch("https://www.stlstuff.com/api/testAPI")
       .then((res) => res.json())
       .then((data) => setData(data.message));
   }, []);
