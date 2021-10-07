@@ -10,7 +10,6 @@ function App() {
 
   React.useEffect(() => {
     fetch("https://www.stlstuff.com/api/testAPI")
-      .then((res) => res.json())
       .then((data) => setData(data.message));
   }, []);
 
