@@ -4,14 +4,15 @@ import React, { useState } from 'react';
 import Popup from './components/Popup';
 
 function App() {
-  const [isOpen, setIsOpen] = useState(true);
 
+  const [isOpen, setIsOpen] = useState(true);
   const [data, setData] = React.useState(null);
 
+
+  const backendLocation = process.env.BACKENDADDRESS||"http://localhost:5050"
+
   React.useEffect(() => {
-    fetch("https://www.stlstuff.com/api/testAPI")
-      .then((res) => res.json())
-      .then((data) => setData(data.message));
+    fetch(backendLocation+"/api/testAPI");
   }, []);
 
   const togglePopup = () => {
