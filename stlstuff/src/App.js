@@ -12,9 +12,11 @@ function App() {
   const backendLocation = process.env.BACKENDADDRESS||"http://localhost:5050"
 
   React.useEffect(() => {
-    fetch(backendLocation+"/api/testAPI");
+    fetch(backendLocation+"/api/testAPI").then(asdflskdjfsdfj=>console.log(asdflskdjfsdfj)).then(data=>setData(data));
   }, []);
 
+
+  
   const togglePopup = () => {
     setIsOpen(!isOpen);
   }
