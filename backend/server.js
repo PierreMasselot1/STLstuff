@@ -10,7 +10,7 @@ require('dotenv').config();
 
 
 app.get('/api/testAPI',(req,res)=>{
-  res.send("This is the response for the testAPI");
+  res.send({response:"This is the response for the testAPI"});
 });
 
 const port = process.env.PORT || 5050;
