@@ -12,7 +12,7 @@ function App() {
   const [data, setData] = React.useState(null);
 
 
-  const backendLocation = process.env.BACKENDADDRESS || "http://localhost:5050";
+  const backendLocation = "https://www.stlstuff.com";
 
   React.useEffect(() => {
     fetch(backendLocation + "/api/testAPI").then(res => res.json()).then(data => setData(data.response));
