@@ -3,7 +3,10 @@ import Header from './components/Header';
 import React, { useState } from 'react';
 import Popup from './components/Popup';
 
+
+
 function App() {
+  require('dotenv').config();
 
   const [isOpen, setIsOpen] = useState(true);
   const [data, setData] = React.useState(null);
