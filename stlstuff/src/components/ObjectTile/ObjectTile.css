@@ -1,0 +1,13 @@
+.objectImage {
+  object-fit: cover;
+  width: 20%;
+  height: 20%;
+}
+.objectTile {
+  background-color: aliceblue;
+  background-size: cover;
+}
+.objectTitle {
+  align-self: center;
+  width: fit-content;
+}
