@@ -1,8 +1,8 @@
 import "./App.css";
 import Header from "./components/Header";
-import ObjectTile from "./components/ObjectTile/ObjectTile";
 import React, { useState } from "react";
 import Popup from "./components/Popup";
+import ObjectWindow from "./components/ObjectWindow/ObjectWindow";
 
 function App() {
   const [isOpen, setIsOpen] = useState(true);
@@ -26,7 +26,7 @@ function App() {
 
       <div className="Content">
         <p className="mainText">{!data ? "Loading..." : data}</p>
-        <ObjectTile name="Object1" />
+        <ObjectWindow/>
         <div>{isOpen && <Popup handleClose={togglePopup} s />}</div>
       </div>
     </div>
