@@ -27,7 +27,7 @@ function App() {
       <div className="Content">
         <p className="mainText">{!data ? "Loading..." : data}</p>
         <ObjectWindow/>
-        <div>{isOpen && <Popup handleClose={togglePopup} s />}</div>
+        <div>{isOpen && <Popup handleClose={togglePopup}/>}</div>
       </div>
     </div>
   );
