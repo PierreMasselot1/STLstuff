@@ -1,0 +1,28 @@
+.objectTile {
+  background-color: var(--backgroundColorLVL5);
+  background-size: contain;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  border-radius: 0.5rem;
+
+}
+.objectImage {
+  object-fit: cover;
+  width: 90%;
+  height: 90%;
+  border-radius: 0.5rem;
+
+  
+}
+
+.objectTitle {
+  margin: 10px;
+
+
+}
+.interactBar{
+  display: flex;
+  justify-content: space-evenly;
+}
+
