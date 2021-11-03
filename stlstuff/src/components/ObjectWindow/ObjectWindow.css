@@ -1,7 +1,10 @@
 .objectWindow {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(33, 116, 189);
-    
-  
+    display: grid;
+    margin: 1rem;
+    gap: 1rem;
+    padding: 1rem;
+    min-width: fit-content;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    background-color: var(--backgroundColorLVL2);
+    border-radius: 1rem;
   }

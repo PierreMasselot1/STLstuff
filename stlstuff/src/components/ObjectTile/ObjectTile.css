@@ -1,16 +1,18 @@
 .objectTile {
-  background-color: aliceblue;
+  background-color: var(--backgroundColorLVL5);
   background-size: contain;
-  width: 20%;
-  height: 25%;
+  width: fit-content;
+  height: fit-content;
   text-align: center;
-  display: block;
+  border-radius: 0.5rem;
 
 }
 .objectImage {
   object-fit: cover;
   width: 90%;
   height: 90%;
+  border-radius: 0.5rem;
+
   
 }
 
@@ -19,3 +21,8 @@
 
 
 }
+.interactBar{
+  display: flex;
+  justify-content: space-evenly;
+}
+
