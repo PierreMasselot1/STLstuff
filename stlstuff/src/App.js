@@ -3,9 +3,11 @@ import Header from "./components/Header";
 import React, { useState } from "react";
 import Popup from "./components/Popup";
 import ObjectWindow from "./components/ObjectWindow/ObjectWindow";
+import {useCookies} from "react-cookie";
 
 function App() {
-  const [isOpen, setIsOpen] = useState(true);
+  const[ cookies, setCookie] = useCookies(["viewedPopup"]);
+  const [isOpen, setIsOpen] = useState(!cookies.viewedPopup===true);
   const [data, setData] = React.useState(null);
 
   const backendLocation = process.env.BACKENDADDRESS || "http://localhost:5050";
@@ -18,6 +20,7 @@ function App() {
 
   const togglePopup = () => {
     setIsOpen(!isOpen);
+    setCookie("viewedPopup",true,{maxAge: 12});//short expiry time for dev purposes
   };
 
   return (
