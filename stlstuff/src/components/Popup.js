@@ -7,7 +7,7 @@ const Popup = props => {
 
   const handleOnChange = () =>{
     
-    setCookie("showPopup",dontShowAgain,{maxAge: 30});//short expiry time for dev purposes
+    setCookie("showPopup",dontShowAgain,{maxAge: 604800});//short expiry time for dev purposes
     setDontShowAgain(!dontShowAgain);
   };
   
