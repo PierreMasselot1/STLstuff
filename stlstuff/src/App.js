@@ -7,7 +7,7 @@ import {useCookies} from "react-cookie";
 
 function App() {
   const[ cookies, setCookie] = useCookies(["showPopup"]);
-  const [isOpen, setIsOpen] = useState(!cookies.showPopup===true);
+  const [isOpen, setIsOpen] = useState(!cookies.showPopup);
   const [data, setData] = React.useState(null);
 
   const backendLocation = process.env.BACKENDADDRESS || "http://localhost:5050";
