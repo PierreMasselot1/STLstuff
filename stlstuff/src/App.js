@@ -6,7 +6,7 @@ import ObjectWindow from "./components/ObjectWindow/ObjectWindow";
 import {useCookies} from "react-cookie";
 
 function App() {
-  const[ cookies, setCookie] = useCookies(["showPopup"]);
+  const[ cookies] = useCookies(["showPopup"]);
   const [isOpen, setIsOpen] = useState(!cookies.showPopup);
   const [data, setData] = React.useState(null);
 
