@@ -4,7 +4,7 @@ services:
       context: ./backend
       dockerfile: ./Dockerfile
     volumes:
-      - ./backend:/backdir
+      - ./backend/src:/backdir/src
     environment:
       - CHOKIDAR_USEPOLLING=true
     ports:
@@ -14,7 +14,7 @@ services:
       context: ./stlstuff
       dockerfile: ./Dockerfile
     volumes:
-      - ./stlstuff:/frontdir
+      - ./stlstuff/src:/frontdir/src
     environment:
       - CHOKIDAR_USEPOLLING=true
     ports:
