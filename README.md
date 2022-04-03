@@ -7,7 +7,7 @@ If you have ever used Thingiverse you will now that the website can often be slo
 
 Progress is currently slow but I am planning to start working on this much more after winter break.
 
-A preview version of the website can be accessed at: www.stlstuff.com
+~~A preview version of the website can be accessed at: www.stlstuff.com~~ shut down servers as didn't really make sense to keep them running while this is on pause
 
 
 If you want to help out with this let me know and I might create a discord server similarly to what I have done with the MSU.
