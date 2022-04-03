@@ -1,4 +1,5 @@
 # STLstuff
+⚠️ Project is on hold for now, busy with other thing but might get back to it if Thingiverse keeps being unreliable
 
 The goal of this project is to create a 3D file hosting website, ... or learn more about web dev while failing at that.
 
